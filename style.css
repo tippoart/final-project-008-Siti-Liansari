@@ -1,0 +1,497 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+
+}
+
+body {
+    background-color: #44496b;
+    font-family: 'Noto Sans Zanabazar Square';
+
+
+}
+
+/* header start */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #707499;
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+
+
+.siti-image {
+
+    border: 4px solid #ab908b;
+    object-fit: cover;
+    width: 17%;
+    border-radius: 100%;
+    box-sizing: border-box;
+
+}
+
+
+header .navbar h3 {
+
+    color: rgba(219, 215, 215, 0.875);
+    text-align: center;
+}
+
+/* header end  */
+
+
+
+/* navbar start */
+
+nav {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    background-color: #7c7f98;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 30px;
+
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #eed4c6;
+    gap: 50px;
+    transition: transform .5s, 1s;
+    margin: 5px 15px;
+    padding: 3px;
+    align-items: center;
+ 
+
+}
+
+nav ul li a:hover {
+
+    background-color: #d7b5a3;
+    transform: rotate(5deg);
+    border-radius: 12px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+nav .logoo {
+    display: flex;
+    margin: 10px 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #F2CCB8;
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+nav .logoo .menuu {
+    display: none;
+}
+
+nav .logoo i {
+    transition: transform .9s 0s;
+}
+
+nav .logoo i:hover {
+    color: #f1dbcf;
+    transform: scale(1.4);
+
+}
+
+/* navbar end */
+
+section {
+    display: flex;
+
+    gap: 50px;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .content-1 {
+    margin-top: 60px;
+    width: 50%;
+    text-align: center;
+    background-color: #7c7f98;
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform .4s;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section .content-1:hover {
+    background-color: #8e9ba7d6;
+    color: rgb(9, 103, 103);
+    transform: scale(1.1);
+}
+
+section .content-1 h4 {
+
+    background-color: #c0a292;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+    border: 0.5px rgba(91, 78, 47, 0.685) solid;
+    color: #e7dfd4;
+
+
+}
+
+section .school {
+    text-align: center;
+    background-color: #7c7f98;
+    border-radius: 20px;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+    width: 50%;
+    transition: transform .4s;
+    color: #e7dfd4;
+    white-space: nowrap;
+    overflow-x: scroll;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+
+.school .gambar-school {
+    display: inline-block;
+    object-fit: cover;
+    width: 312px;
+    height: 312px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+section .school:hover {
+    background-color: #8e9ba7d6;
+    transform: scale(1.1);
+}
+
+section .school .education {
+
+    margin: 20px;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+}
+
+section .keahlian {
+    text-align: center;
+    background-color: #7c7f98;
+    border-radius: 20px;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+    width: 50%;
+    transition: transform .4s;
+    color: #e7dfd4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+section .keahlian:hover {
+    background-color: #8e9ba7d6;
+    transform: scale(1.1);
+
+}
+
+
+section .gambar img {
+    object-fit: cover;
+    width: 20%;
+    margin: 20px 20px;
+}
+
+section .keahlian .my-minat {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* about  */
+
+.tentangsaya {
+    color: #e7dfd4;
+    line-height: 50px;
+    text-align: center;
+    background-color: #7c7f98;
+    /* background-color:#66697b ; */
+    border-radius: 20px;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+    width: 90%;
+    transition: transform .4s;
+    margin: 50px 66px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.tentangsaya h1 {
+    text-align: center;
+    background-color: #718ba584;
+    border-radius: 20px;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+    margin-bottom: 30px;
+
+}
+
+.map iframe {
+    border: none;
+    border-radius: 15px;
+}
+
+/* Gaya untuk tombol "scroll to top" */
+.scroll-to-top {
+    display: none;
+    /* Sembunyikan tombol secara default */
+    position: fixed;
+    bottom: 26px;
+    right: 10px;
+    z-index: 99;
+    font-size: 23px;
+    color: #252424;
+    background-color: #eae1e1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 90px;
+    width: 40px;
+   
+    text-decoration: none;
+}
+
+.scroll-to-top:hover {
+    background-color: #e2d9d9;
+}
+
+.scroll-to-top i {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+
+/* Tampilkan tombol ketika halaman discroll ke bawah */
+.scroll-to-top.show {
+    display: block;
+}
+
+
+footer {
+    background-color: #707499;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logoo-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.logoo-footer a {
+    color: white;
+    font-size: 20px;
+}
+
+.content-1 .grafik {
+    width: 480px;
+    object-fit: cover;
+}
+
+section .school h2 {
+    background-color:#c0a292;
+    border-radius: 10px;
+    width: 180px; 
+    text-align: center; 
+    margin-left:35%;
+    margin-top: 20px;
+ }
+
+ section .keahlian .expert{
+    background-color:#c0a292; 
+    border-radius: 10px; 
+    width: 170px; 
+    text-align: center; 
+    margin: 20px 35%; 
+}
+
+@media  (max-width: 768px) {
+
+        header {
+
+            width: 100%;
+            font-size: 7.5px;
+
+
+        }
+
+
+        header .siti-image {
+            width: 80px;
+        }
+
+        nav .logoo {
+            font-size: 22px;
+
+        }
+
+
+        nav .navbar-nav {
+            position: absolute;
+            top: 37%;
+            right: -100%;
+            background-color: #a79084;
+            width: 10rem;
+            height: 70vh;
+           
+
+
+        }
+
+        nav .navbar-nav.active {
+            right: 0;
+        }
+
+        nav .navbar-nav ul {
+            display:inline-block;
+            padding: 4px;
+            color: #F2CCB8;
+
+
+
+
+        }
+
+        nav ul li a {
+            padding: 7px;
+            font-size: 15px;
+            gap: 70px;
+            color: #e7dfd4;
+            width: 50%;
+            height: 30%;
+
+
+        }
+
+        nav ul li a:hover {
+            background-color: #a79084;
+            width: 50%;
+
+        }
+
+        nav .logoo .menuu {
+            display: inline-block;
+            color: #F2CCB8;
+        }
+
+        section {
+            width: 510px;
+            display: grid;
+            padding: 20px;
+
+
+        }
+
+        .content-1 {
+            width: 50%;
+        }
+
+        .content-1 .grafik {
+            width: 200px;
+        }
+
+        section .school h2 {
+            width: 50%;
+            font-size: 15px;
+            text-align: center;
+            margin-left:27%;
+        }
+        section .school .menu {
+            font-size: 8px;
+            margin-top: 10px;
+        }
+
+        section .scroll .gambar-school {
+            width: 160px;
+            height: 250px;
+        }
+
+        section .keahlian .expert {
+
+            font-size: 15px;
+            margin-left: 15%;
+        }
+
+
+        section .keahlian h3 {
+            font-size: 10px;
+            height: 150px;
+        }
+        section #minat h3 {
+          
+           height: 30px;
+        }
+        section  .keahlian .my-minat {
+
+            width: 200px;
+            height: 150px;
+
+        }
+
+        .tentangsaya {
+            font-size: 10px;
+            width: 90%;
+            line-height: 18px;
+            margin-left: 15px ;
+        }
+
+        .tentangsaya h1 {
+            padding: 9px;
+        }
+
+        .tentangsaya .map h3 {
+            margin-top: 20px;
+        }
+
+        .tentangsaya .map iframe {
+            width: 180px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        .scroll-to-top {
+            width: 30px;
+           
+             
+        
+    }
+
+    footer {
+        font-size: 8px;
+       
+    }
+}  
